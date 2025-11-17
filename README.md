@@ -1,12 +1,15 @@
 # Community Detection in Zachary's Karate Club using Spectral Modularity
 -Vidhi Kishor Sayam
 -IMS23290
+
 1.Overview of the project
+
 The project signifies the community detection algorithm of the famous Zachary's Karate Club using Spectral Modularity Maximization.The motive behind this assignment is to use an iterative spectral modularity detection method to compare the detected partiotion to the real split observed by Zachary.
 A key part of the analysis is to implement the s[ectral modularity an study how network metrices such as degree,betweeness,closeness and clustering evolve during recrusive community splits.It also helps us to understand how modularity measures the quality of a graph partition,how recrusive bisection can reveal more than two communities,and the structural roles of nodes reflected in centrality metrices.
 This project is a overall excercise in network analysis,eigenvectors,clustering evlove during community splits and data visualization.
 
 2.Key Features and the tasks involved :
+
 Task 1 — Build the Modularity Matrix
 Compute adjacency matrix A, degree vector 𝑘, and total edges 𝑚.
 Construct the modularity matrix 𝐵.
